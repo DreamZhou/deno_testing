@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "lib": ["es2020", "deno.window"],
+        "strict": true
+    },
+    "lint": {
+        "rules": {
+            "exclude": [
+                "no-unused-vars",
+                "ban-ts-comment",
+                "no-explicit-any",
+                "no-namespace",
+                "ban-types",
+                "import-prefix-missing",
+                "no-inferrable-types"
+              ]
+        }
+    }
+}
